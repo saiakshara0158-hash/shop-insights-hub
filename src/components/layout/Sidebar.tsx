@@ -10,6 +10,7 @@ import {
   ChevronLeft,
   ChevronRight,
   BarChart3,
+  Sparkles,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -19,6 +20,7 @@ const navItems = [
   { title: 'Upload Data', href: '/upload', icon: Upload },
   { title: 'Customer Insights', href: '/customers', icon: Users },
   { title: 'Activity & Market', href: '/activity', icon: Activity },
+  { title: 'Ask AI', href: '/ask-ai', icon: Sparkles },
   { title: 'Reports', href: '/reports', icon: FileText },
   { title: 'Settings', href: '/settings', icon: Settings },
 ];
