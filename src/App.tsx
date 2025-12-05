@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Upload from "./pages/Upload";
 import Customers from "./pages/Customers";
 import Activity from "./pages/Activity";
+import AskAI from "./pages/AskAI";
 import Reports from "./pages/Reports";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/upload" element={<Upload />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/activity" element={<Activity />} />
+            <Route path="/ask-ai" element={<AskAI />} />
             <Route path="/reports" element={<Reports />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<NotFound />} />
